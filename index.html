@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Virtual Art Gallery</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <button id="openGalleryBtn">Click here to open Virtual Art Gallery</button>
+        <div id="galleryContainer" class="hidden">
+            <div id="gallery" class="gallery"></div>
+        </div>
+
+        <!-- Modal for displaying full-size art -->
+        <div id="artModal" class="modal">
+            <span id="closeModal" class="close">&times;</span>
+            <img id="artModalImg" class="modal-content">
+            <div id="caption" class="caption"></div>
+            <button id="prevBtn" class="navBtn">❮</button>
+            <button id="nextBtn" class="navBtn">❯</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
