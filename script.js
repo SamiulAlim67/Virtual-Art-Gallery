@@ -13,11 +13,11 @@ document.addEventListener('DOMContentLoaded', function() {
 
     // Array of art items with their details
     const artItems = [
-        { src: 'https://images.unsplash.com/photo-1521747116042-5a810fda9664?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwzNjUyOXwwfDF8c2VhcmNofDF8fGFydHxlbnwwfHx8fDE2Nzg4NzA4NjA&ixlib=rb-1.2.1&q=80&w=400', title: 'Starry Night', artist: 'Vincent van Gogh' },
-        { src: 'https://images.unsplash.com/photo-1535392434882-2c5d6b1229ff?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwzNjUyOXwwfDF8c2VhcmNofDIwfHxhdHxlbnwwfHx8fDE2Nzg4NzA5MjA&ixlib=rb-1.2.1&q=80&w=400', title: 'Mona Lisa', artist: 'Leonardo da Vinci' },
-        { src: 'https://images.unsplash.com/photo-1580695761977-78bf8ec61327?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwzNjUyOXwwfDF8c2VhcmNofDN8fGFydHxlbnwwfHx8fDE2Nzg4NzA5NzA&ixlib=rb-1.2.1&q=80&w=400', title: 'The Scream', artist: 'Edvard Munch' },
-        { src: 'https://images.unsplash.com/photo-1520676896001-88f8862e5049?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwzNjUyOXwwfDF8c2VhcmNofDE3fHxhdHxlbnwwfHx8fDE2Nzg4NzEwMzA&ixlib=rb-1.2.1&q=80&w=400', title: 'The Persistence of Memory', artist: 'Salvador Dalí' },
-        { src: 'https://images.unsplash.com/photo-1592206021263-1d2eac0835f5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwzNjUyOXwwfDF8c2VhcmNofDczfHxhdHxlbnwwfHx8fDE2Nzg4NzExNDA&ixlib=rb-1.2.1&q=80&w=400', title: 'The Last Supper', artist: 'Leonardo da Vinci' },
+        { src: 'https://rukminim2.flixcart.com/image/850/1000/xif0q/painting/w/9/b/the-starry-night-digital-painting-photo-frame-jadoun-original-imagshy2cw2jzekb.jpeg?q=90&crop=false', title: 'Starry Night', artist: 'Vincent van Gogh' },
+        { src: 'https://www.artmajeur.com/medias/hd/f/r/frederic-font-chroma/artwork/16679974_3_4.jpg', title: 'Mona Lisa', artist: 'Leonardo da Vinci' },
+        { src: 'https://upload.wikimedia.org/wikipedia/commons/f/f4/The_Scream.jpg', title: 'The Scream', artist: 'Edvard Munch' },
+        { src: 'https://vsemart.com/wp-content/uploads/2014/07/Flexible-clock.jpg', title: 'The Persistence of Memory', artist: 'Salvador Dalí' },
+        { src: 'https://cdn.pixabay.com/photo/2017/10/12/23/05/girl-with-the-pearl-earring-2846349_1280.jpg', title: 'Girl with a Pearl Earring', artist: 'Johannes Vermeer' },
     ];
 
 
